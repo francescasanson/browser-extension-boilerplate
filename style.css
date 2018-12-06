@@ -35,7 +35,7 @@
 }
 
 .my-beautiful-extension ._585- {
-	border: 1px solid yello
+	border: 1px solid yellow;
 }
 
 .my-beautiful-extension ._585- ._4w98._4w97,
@@ -70,7 +70,7 @@
   }
 
  .my-beautiful-extension div[sponsored="false"]{
- 	opacity: 0.2;
+ 	opacity: 0.3;
  	transform: scale(1);
  	transition: transform 0.5s linear;
  }
