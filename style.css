@@ -66,7 +66,7 @@
  }
 
   .my-beautiful-extension div[sponsored="true"]:hover{
-  	transform: scale(1.4);
+  	transform: scale(1.2);
   }
 
  .my-beautiful-extension div[sponsored="false"]{
