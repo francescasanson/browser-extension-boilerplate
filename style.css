@@ -1,7 +1,9 @@
-.my-beautiful-extension ._2s1x ._2s1y,
-.my-beautiful-extension.home {
+/* .my-beautiful-extension.home */
+
+.my-beautiful-extension ._2s1x ._2s1y {
 	background-color: red;
 	color: yellow;
+	border-bottom: 1px solid yellow;
 }
 
 .my-beautiful-extension #leftCol {
@@ -19,7 +21,7 @@
 .my-beautiful-extension ._1qkq {
     position: absolute;
     width: 1000px !important;
-    margin-right: -400px !important;
+    margin-right: -415px !important;
  }
 
  .my-beautiful-extension .fbChatSidebar {
@@ -33,7 +35,7 @@
 }
 
 .my-beautiful-extension ._585- {
-	border: 1px solid yellow;
+	border: 1px solid yello
 }
 
 .my-beautiful-extension ._585- ._4w98._4w97,
@@ -58,11 +60,17 @@
 
 
  .my-beautiful-extension div[sponsored="true"]{
- 	border: 2px green solid;
+ 	border: 35px yellow solid;
+ 	transform: scale(1);
+ 	transition: transform 0.5s linear;
  }
 
+  .my-beautiful-extension div[sponsored="true"]:hover{
+  	transform: scale(1.4);
+  }
+
  .my-beautiful-extension div[sponsored="false"]{
- 	opacity: 0.5;
+ 	opacity: 0.2;
  	transform: scale(1);
  	transition: transform 0.5s linear;
  }
