@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Salebook",
   "version": "0.1",
-  "description": "AdBlock must be disabled.",
+  "description": "This web extension shows baldly how Facebook is a community designed to create a wide space where ads can be later included. AdBlock must be disabled.",
   "homepage_url": "https://github.com/uf0/browser-extension-boileplate",
   "icons": {
     "48": "icons/icon-48.png",
