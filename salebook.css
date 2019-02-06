@@ -1,0 +1,235 @@
+html{
+    background-image: url(sfondo.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.stella{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    margin: auto;
+    top: 40px;
+    left: 0px;
+    right: 0;
+    z-index: 1;
+}
+
+.stella:hover{
+    height: 280px;
+    transition: 1s;
+    transform: rotate(350deg);
+}
+
+.post{
+    width: 800px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top:260px;
+    left: 0;
+    right: 0;
+}
+
+iframe{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    margin: auto;
+    top:790px;
+    left: 0;
+    right: 0;
+    padding-bottom: 150px;
+    
+}
+
+.button{
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    color:red;
+    border: 0.5px solid red;
+    border-radius: 2px;
+    padding: 6px 25px;
+    cursor:pointer;
+    position: absolute;
+    margin-top: 592px;
+    margin-left: 920px;
+    z-index: 2;
+}
+
+.button:hover{
+    color:white;
+    background-color: red;
+    border: none;
+}
+
+.footer{
+  font-family: "Work Sans", sans-serif;
+  position: relative;
+  font-size: 0.6em;
+  top:1400px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: red;
+  color: black;
+  text-align: center;
+}
+
+/*adattamento schermo*/
+@media only screen and (max-width: 1384px) {
+    .button {
+        margin-left:880px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .button {
+        margin-left:840px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 1206px) {
+    .button {
+        margin-left:800px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 1134px) {
+    .button {
+        margin-left:780px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 1127px) {
+    .button {
+        margin-left:760px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .button {
+        margin-left:700px;
+        transition: 0.5s;
+    }
+}
+
+
+@media only screen and (max-width: 965px) {
+    .button {
+        margin-left:680px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 937px) {
+    .button {
+        margin-left:660px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 937px) {
+    .button {
+        margin-left:600px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 751px) {
+    .post {
+        width:500px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 751px) {
+    iframe {
+        margin-top: -180px;
+        width:500px;
+        height: 300px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 751px) {
+    .button {
+        margin-left:390px;
+        margin-top: 465px;
+        font-size:0.7em;
+        padding: 4px 20px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .button {
+        margin-left:450px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 661px) {
+    .button {
+        margin-left:410px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .button {
+        margin-left:380px;
+        transition: 0.5s;
+    }
+}
+
+
+@media only screen and (max-width: 699px) {
+    .footer {
+        top: 1000px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 409px) {
+    .post {
+        width:340px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 409px) {
+    iframe {
+        margin-top: -280px;
+        width:340px;
+        height: 200px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 409px) {
+    .footer {
+        top: 880px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 409px) {
+    .button {
+        margin-left:250px;
+        margin-top: 396px;
+        font-size:0.5em;
+        padding: 4px 17px;
+        transition: 0.5s;
+    }
+}
